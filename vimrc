@@ -27,6 +27,7 @@ set smartcase
 set t_Co=256
 set visualbell
 set wildmenu
+set softtabstop=4 expandtab
 syntax on
 filetype off                  " required
 
