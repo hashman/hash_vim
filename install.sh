@@ -11,6 +11,7 @@ cd powerline-fonts/
 ./install.sh
 cd ~/.vim
 git clone https://github.com/ctrlpvim/ctrlp.vim.git bundle/ctrlp.vim
+git clone https://github.com/StanAngeloff/php.vim.git
 
 cd ~
 
