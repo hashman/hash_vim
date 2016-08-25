@@ -58,6 +58,7 @@ Plugin 'FuzzyFinder'
 Plugin 'vim-airline/vim-airline'
 Plugin 'vim-airline/vim-airline-themes'
 Plugin 'airblade/vim-gitgutter'
+Plugin 'scrooloose/nerdtree'
 
 
 filetype plugin indent on     " required
@@ -107,3 +108,5 @@ nmap <leader>l :bnext<CR>
 nmap <leader>h :bprevious<CR>
 nmap <leader>q :bp <BAR> bd #<CR>
 nmap <leader>bl :ls<CR>
+
+nmap ,e :NERDTreeToggle<cr>
