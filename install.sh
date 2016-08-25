@@ -9,6 +9,8 @@ cd ~/.font
 git clone https://github.com/Lokaltog/powerline-fonts.git
 cd powerline-fonts/
 ./install.sh
+cd ~/.vim
+git clone https://github.com/ctrlpvim/ctrlp.vim.git bundle/ctrlp.vim
 
 cd ~
 
