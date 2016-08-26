@@ -1,6 +1,10 @@
 #/bin/sh
 # install 
 git clone https://github.com/gmarik/vundle.git ~/.vim/bundle/vundle
+git clone https://github.com/tomasr/molokai.git
+cp -R molokai/colors ~/.vim
+rm -Rf molokai
+
 cp vimrc ~/.vimrc
 vim +PluginInstall +qall
 
