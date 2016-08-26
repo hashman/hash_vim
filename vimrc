@@ -67,6 +67,7 @@ Plugin 'garbas/vim-snipmate'
 
 " Optional:
 Plugin 'honza/vim-snippets'
+Plugin 'elzr/vim-json'
 
 
 filetype plugin indent on     " required
