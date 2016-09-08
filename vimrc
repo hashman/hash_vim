@@ -17,7 +17,6 @@ set nobomb
 set nocompatible
 set nofoldenable
 set number
-set relativenumber
 set ruler
 set scrolloff=3
 set secure
@@ -64,10 +63,10 @@ Plugin 'Xuyuanp/nerdtree-git-plugin'
 Plugin 'MarcWeber/vim-addon-mw-utils'
 Plugin 'tomtom/tlib_vim'
 Plugin 'garbas/vim-snipmate'
+Plugin 'elzr/vim-json'
 
 " Optional:
 Plugin 'honza/vim-snippets'
-Plugin 'elzr/vim-json'
 
 
 filetype plugin indent on     " required
