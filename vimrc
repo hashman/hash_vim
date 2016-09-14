@@ -64,7 +64,6 @@ Plugin 'MarcWeber/vim-addon-mw-utils'
 Plugin 'tomtom/tlib_vim'
 Plugin 'garbas/vim-snipmate'
 Plugin 'elzr/vim-json'
-Plugin 'valloric/youcompleteme'
 
 " Optional:
 Plugin 'honza/vim-snippets'
