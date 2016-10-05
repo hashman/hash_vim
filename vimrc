@@ -60,13 +60,13 @@ Plugin 'airblade/vim-gitgutter'
 Plugin 'scrooloose/nerdtree'
 Plugin 'Xuyuanp/nerdtree-git-plugin'
 Plugin 'MarcWeber/vim-addon-mw-utils'
-"Plugin 'tomtom/tlib_vim'
-"Plugin 'garbas/vim-snipmate'
+Plugin 'othree/vim-autocomplpop'
+Plugin 'tomtom/tlib_vim'
+Plugin 'garbas/vim-snipmate'
 Plugin 'elzr/vim-json'
 
 " Optional:
 Plugin 'honza/vim-snippets'
-
 
 filetype plugin indent on     " required
 " To ignore plugin indent changes, instead use:
