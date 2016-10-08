@@ -21,5 +21,6 @@ $ ./install.sh
 ## Change Log
 
 2016/10/8
+
 1. Add 'tn' key mapping to open file in new tab by Ctrlp plugin
 2. Add Ctrlp ignore folder to speed up indexing
