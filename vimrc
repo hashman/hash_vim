@@ -117,6 +117,10 @@ nmap <leader>h :bprevious<CR>
 nmap <leader>q :bp <BAR> bd #<CR>
 nmap <leader>bl :ls<CR>
 
+nmap qq :q!<cr>
+nmap ww :w<cr>
+nmap wq :wq!<cr>
+
 nmap ,e :NERDTreeToggle<cr>
 let g:NERDTreeIndicatorMapCustom = {
     \ "Modified"  : "✹",
