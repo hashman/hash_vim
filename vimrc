@@ -63,6 +63,7 @@ Plugin 'MarcWeber/vim-addon-mw-utils'
 Plugin 'tomtom/tlib_vim'
 Plugin 'garbas/vim-snipmate'
 Plugin 'elzr/vim-json'
+Plugin 'tpope/vim-surround'
 
 " Optional:
 Plugin 'honza/vim-snippets'
