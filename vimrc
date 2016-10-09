@@ -123,6 +123,9 @@ nmap qq :q!<cr>
 nmap ww :w<cr>
 nmap wq :wq!<cr>
 
+nmap <C-c> "+y<cr>
+nmap <C-x> "+d<cr>
+
 nmap ,e :NERDTreeToggle<cr>
 let g:NERDTreeIndicatorMapCustom = {
     \ "Modified"  : "✹",

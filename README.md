@@ -20,6 +20,11 @@ $ ./install.sh
 
 ## Change Log
 
+2016/10/9
+
+1. Add <C-c> to copy to clipboard
+2. Add <C-x> to copy cut to clipboard
+
 2016/10/8
 
 1. Add 'tn' key mapping to open file in new tab by Ctrlp plugin
