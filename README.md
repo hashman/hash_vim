@@ -22,8 +22,8 @@ $ ./install.sh
 
 2016/10/9
 
-1. Add <C-c> to copy to clipboard
-2. Add <C-x> to copy cut to clipboard
+1. Add "<C-c>" to copy to clipboard
+2. Add "<C-x>" to copy cut to clipboard
 
 2016/10/8
 
