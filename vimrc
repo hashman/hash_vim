@@ -65,6 +65,7 @@ Plugin 'garbas/vim-snipmate'
 Plugin 'elzr/vim-json'
 Plugin 'tpope/vim-surround'
 Plugin 'benmills/vimux'
+Plugin 'Valloric/YouCompleteMe'
 
 " Optional:
 Plugin 'honza/vim-snippets'

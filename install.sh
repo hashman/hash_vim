@@ -17,6 +17,10 @@ cd ~/.vim
 git clone https://github.com/ctrlpvim/ctrlp.vim.git bundle/ctrlp.vim
 git clone https://github.com/StanAngeloff/php.vim.git
 
+# install YouCompleteMe
+cd bundle/YouCompleteMe
+./install.py
+
 cd ~
 
 echo "Done"
