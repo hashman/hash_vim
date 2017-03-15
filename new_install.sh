@@ -1,7 +1,7 @@
 #/bin/sh
 # install
 cp new_vim.vim ~/.vimrc
-vim +PluginInstall +qall
+vim +PlugInstall +qall
 
 # install YouCompleteMe
 cd ~/.vim/plugged/YouCompleteMe
