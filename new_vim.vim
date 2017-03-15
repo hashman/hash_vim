@@ -46,6 +46,7 @@ Plug 'scrooloose/syntastic'
 Plug 'Yggdroot/indentLine'
 Plug 'avelino/vim-bootstrap-updater'
 Plug 'sheerun/vim-polyglot'
+Plug 'Valloric/YouCompleteMe'
 
 let g:make = 'gmake'
 if exists('make')
@@ -367,7 +368,7 @@ noremap <Leader>te :tabe <C-R>=expand("%:p:h") . "/" <CR>
 "" ctrlp.vim
 set wildmode=list:longest,list:full
 set wildignore+=*.o,*.obj,.git,*.rbc,*.pyc,__pycache__
-let g:ctrlp_custom_ignore = '\v[\/](node_modules|target|dist)|(\.(swp|tox|ico|git|hg|svn))$'
+let g:ctrlp_custom_ignore = '\v[\/](node_modules|target|dist|build|vendor)|(\.(swp|tox|ico|git|hg|svn))$'
 let g:ctrlp_user_command = "find %s -type f | grep -Ev '"+ g:ctrlp_custom_ignore +"'"
 let g:ctrlp_use_caching = 1
 
@@ -473,7 +474,9 @@ augroup END
 
 
 " php
-
+let g:syntastic_mode_map = { 'mode': 'passive', 'active_filetypes':   [],'passive_filetypes': [] }
+noremap <C-w>e :SyntasticCheck<CR>
+noremap <C-w>f :SyntasticToggleMode<CR>
 
 "*****************************************************************************
 "*****************************************************************************
