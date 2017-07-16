@@ -25,6 +25,8 @@ call plug#begin(expand('~/.vim/plugged'))
 nmap qq :q!<cr>
 nmap ww :w<cr>
 nmap wq :wq!<cr>
+nmap vsp :vsplit<cr>
+nmap sp :split<cr>
 
 "*****************************************************************************
 "" Plug install packages
