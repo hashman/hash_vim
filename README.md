@@ -20,6 +20,12 @@ $ ./install.sh
 
 ## Change Log
 
+20170716
+
+1. Add 'vsp' for :vsplit
+2. Add 'sp' for :split
+3. Change renew all vimrc
+
 2016/10/9
 
 1. Add "Ctrl-c" to copy to clipboard
