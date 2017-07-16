@@ -25,8 +25,6 @@ call plug#begin(expand('~/.vim/plugged'))
 nmap qq :q!<cr>
 nmap ww :w<cr>
 nmap wq :wq!<cr>
-nmap vsp :vsplit<cr>
-nmap sp :split<cr>
 
 "*****************************************************************************
 "" Plug install packages
@@ -403,7 +401,7 @@ let g:syntastic_auto_loc_list=1
 let g:syntastic_aggregate_errors = 1
 
 " Tagbar
-nmap <silent> <F4> :TagbarToggle<CR>
+nnoremap <leader>t :TagbarToggle<CR>
 let g:tagbar_autofocus = 1
 
 " Disable visualbell
