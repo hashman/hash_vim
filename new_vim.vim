@@ -476,6 +476,11 @@ let g:syntastic_mode_map = { 'mode': 'passive', 'active_filetypes':   [],'passiv
 noremap <C-w>e :SyntasticCheck<CR>
 noremap <C-w>f :SyntasticToggleMode<CR>
 
+" phpunit
+map <Leader>t :!vendor/bin/phpunit --no-coverage
+map <Leader>tw :!vendor/bin/phpunit --stop-on-failure --no-coverage
+map <Leader>tc :!vendor/bin/phpunit --stop-on-failure --coverage-html build/coverage
+
 "*****************************************************************************
 "*****************************************************************************
 
