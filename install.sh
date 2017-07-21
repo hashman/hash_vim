@@ -3,9 +3,7 @@
 cp new_vim.vim ~/.vimrc
 vim +PlugInstall +qall
 
-# install YouCompleteMe
-cd ~/.vim/plugged/YouCompleteMe
-./install.py
+cp -R colors ~/.vim
 
 cd ~
 

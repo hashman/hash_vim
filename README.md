@@ -20,7 +20,12 @@ $ ./install.sh
 
 ## Change Log
 
-20170716
+2017/07/21
+
+1. Removed 'YouCompleteMe'
+2. Changed vim color scheme
+
+2017/07/16
 
 1. Add 'vsp' for :vsplit
 2. Add 'sp' for :split

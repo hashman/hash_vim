@@ -46,7 +46,6 @@ Plug 'scrooloose/syntastic'
 Plug 'Yggdroot/indentLine'
 Plug 'avelino/vim-bootstrap-updater'
 Plug 'sheerun/vim-polyglot'
-Plug 'Valloric/YouCompleteMe'
 
 let g:make = 'gmake'
 if exists('make')
@@ -169,17 +168,18 @@ set number
 
 let no_buffers_menu=1
 if !exists('g:not_finish_vimplug')
-  colorscheme molokai
+  colorscheme xoria256
 endif
 
 set mousemodel=popup
-set t_Co=256
 set guioptions=egmrti
 set gfn=Monospace\ 10
+set linespace=15
 
 if has("gui_running")
   if has("gui_mac") || has("gui_macvim")
     set guifont=Menlo:h12
+    set t_Co=256
     set transparency=7
   endif
 else
@@ -191,7 +191,6 @@ else
   let g:indentLine_char = '┆'
   let g:indentLine_faster = 1
 
-  
   if $COLORTERM == 'gnome-terminal'
     set term=gnome-256color
   else
@@ -199,7 +198,6 @@ else
       set term=xterm-256color
     endif
   endif
-  
 endif
 
 
@@ -525,4 +523,6 @@ else
   let g:airline_symbols.readonly = ''
   let g:airline_symbols.linenr = ''
 endif
+
+let g:Powerline_symbols = 'fancy'
 
