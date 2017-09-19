@@ -70,7 +70,7 @@ endif
 Plug 'honza/vim-snippets'
 
 "" Color
-Plug 'tomasr/molokai'
+Plug 'dracula/vim'
 
 "*****************************************************************************
 "" Custom bundles
@@ -167,9 +167,7 @@ set ruler
 set number
 
 let no_buffers_menu=1
-if !exists('g:not_finish_vimplug')
-  colorscheme xoria256
-endif
+color dracula
 
 set mousemodel=popup
 set guioptions=egmrti
@@ -400,7 +398,7 @@ let g:syntastic_auto_loc_list=1
 let g:syntastic_aggregate_errors = 1
 
 " Tagbar
-nnoremap <leader>t :TagbarToggle<CR>
+nnoremap <leader>y :TagbarToggle<CR>
 let g:tagbar_autofocus = 1
 
 " Disable visualbell
