@@ -22,10 +22,6 @@ endif
 " Required:
 call plug#begin(expand('~/.vim/plugged'))
 
-nmap qq :q!<cr>
-nmap ww :w<cr>
-nmap wq :wq!<cr>
-
 "*****************************************************************************
 "" Plug install packages
 "*****************************************************************************
