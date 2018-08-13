@@ -46,6 +46,10 @@ Plug 'scrooloose/syntastic'
 Plug 'Yggdroot/indentLine'
 Plug 'avelino/vim-bootstrap-updater'
 Plug 'sheerun/vim-polyglot'
+Plug 'rking/ag.vim'
+Plug 'easymotion/vim-easymotion'
+
+let g:ag_working_path_mode="r"
 
 let g:make = 'gmake'
 if exists('make')
@@ -68,9 +72,6 @@ if v:version >= 704
 endif
 
 Plug 'honza/vim-snippets'
-
-"" Color
-Plug 'dracula/vim'
 
 "*****************************************************************************
 "" Custom bundles
@@ -167,7 +168,6 @@ set ruler
 set number
 
 let no_buffers_menu=1
-color dracula
 
 set mousemodel=popup
 set guioptions=egmrti
