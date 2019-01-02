@@ -465,6 +465,8 @@ augroup vimrc-javascript
   autocmd FileType javascript set tabstop=4|set shiftwidth=4|set expandtab softtabstop=4
 augroup END
 
+" select and search
+vnoremap // y/<C-R>"<CR>"
 
 " php
 let g:syntastic_mode_map = { 'mode': 'passive', 'active_filetypes':   [],'passive_filetypes': [] }
