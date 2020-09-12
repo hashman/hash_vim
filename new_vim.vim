@@ -44,6 +44,11 @@ Plug 'avelino/vim-bootstrap-updater'
 Plug 'sheerun/vim-polyglot'
 Plug 'rking/ag.vim'
 Plug 'easymotion/vim-easymotion'
+Plug 'hashivim/vim-terraform'
+
+" Terraform
+let g:terraform_align=1
+let g:terraform_fmt_on_save=1
 
 let g:ag_working_path_mode="r"
 
